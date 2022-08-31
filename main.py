@@ -9,7 +9,7 @@ token = "token here"
 
 prefix = "!"
 
-bot = commands.Bot(command_prefix=prefix, help_command=None)
+bot = commands.Bot(command_prefix=".", intents=discord.Intents.all())
 
 
 @bot.command()
